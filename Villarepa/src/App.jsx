@@ -1,23 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import styles from './App.module.css'
-import Header from './Header'
+import { useState } from "react";
+import styles from "./App.module.css";
+import Header from "./Header";
+import Contenido from "./Contenido";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [seccion, setSeccion] = useState("inicio");
 
-  return ( 
-    <div className={styles.body}>
-      <div className={styles.headBar}>
-        <Header />
-      </div>
-      <div className ={styles.principalContainer}>
-
-      </div>
+  return (
+    <div className={styles.app}>
+      <Header seccionActiva={seccion} onNavegar={setSeccion} />
+      <main className={styles.main}>
+        <Contenido seccionActiva={seccion} />
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,239 @@
+/* ===== SECCIÓN PRINCIPAL ===== */
+.servicios {
+    padding: 80px 80px;
+    background: #2B1B0E;
+    min-height: 80vh;
+}
+
+/* ===== ENCABEZADO ===== */
+.encabezado {
+    margin-bottom: 50px;
+}
+
+.encabezado h2 {
+    font-size: 2.8rem;
+    color: #FFF7EC;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.encabezado h2 span {
+    color: #E8A33D;
+}
+
+.encabezado p {
+    font-size: 1.05rem;
+    color: #B89A7A;
+}
+
+/* ===== LAYOUT DE DOS COLUMNAS ===== */
+.contenido {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* ===== LISTA DE SERVICIOS ===== */
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #3D2710;
+    border: 2px solid transparent;
+    transition: all 0.25s ease;
+    color: #D4B896;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.item:hover {
+    background: #4E3218;
+    border-color: #E8A33D55;
+    color: #FFF7EC;
+    transform: translateX(4px);
+}
+
+.activo {
+    background: #C1502E !important;
+    border-color: #C1502E !important;
+    color: #FFF7EC !important;
+}
+
+.icono {
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+.nombre {
+    flex: 1;
+}
+
+.flecha {
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+/* ===== CARD DE DETALLE ===== */
+.card {
+    flex: 1;
+    background: #3D2710;
+    border-radius: 16px;
+    padding: 36px;
+    min-height: 340px;
+    border: 2px solid #4E3218;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.cardVisible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cardEncabezado {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4E3218;
+}
+
+.cardIcono {
+    font-size: 2.2rem;
+}
+
+.cardEncabezado h3 {
+    font-size: 1.8rem;
+    color: #FFF7EC;
+    margin: 0;
+}
+
+.cardDescripcion {
+    font-size: 1rem;
+    color: #C4A882;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+/* ===== LISTA DE DETALLES ===== */
+.cardDetalles {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardDetalles li {
+    font-size: 0.95rem;
+    color: #D4B896;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check {
+    color: #E8A33D;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+/* ===== PRECIO ===== */
+.cardPrecio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #4E3218;
+}
+
+.cardPrecio span {
+    font-size: 0.8rem;
+    color: #B89A7A;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+}
+
+.cardPrecio strong {
+    font-size: 1.6rem;
+    color: #E8A33D;
+    font-weight: 700;
+}
+
+/* ===== PLACEHOLDER ===== */
+.cardPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    gap: 16px;
+    padding: 20px;
+}
+
+.placeholderIcono {
+    font-size: 3rem;
+    opacity: 0.3;
+    margin-bottom: 4px;
+}
+
+.placeholderTitulo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #D4B896;
+    margin: 0;
+}
+
+.placeholderTexto {
+    font-size: 0.97rem;
+    color: #6B5040;
+    line-height: 1.7;
+    max-width: 360px;
+    margin: 0;
+}
+
+.placeholderPistas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.pista {
+    font-size: 0.82rem;
+    color: #B89A7A;
+    background: #2B1B0E;
+    border: 1px solid #4E3218;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pista:hover {
+    background: #C1502E;
+    border-color: #C1502E;
+    color: #FFF7EC;
+}

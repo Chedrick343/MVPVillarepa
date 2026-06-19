@@ -1,0 +1,219 @@
+/* ===== SECCIÓN PRINCIPAL ===== */
+.seccion {
+    padding: 80px 80px;
+    background: #2B1B0E;
+    min-height: 70vh;
+}
+
+/* ===== ENCABEZADO ===== */
+.encabezado {
+    margin-bottom: 48px;
+}
+
+.encabezado h2 {
+    font-size: 2.8rem;
+    color: #FFF7EC;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.encabezado h2 span {
+    color: #E8A33D;
+}
+
+.encabezado p {
+    font-size: 1.05rem;
+    color: #B89A7A;
+}
+
+/* ===== CONTENEDOR DEL FORMULARIO ===== */
+.formulario {
+    background: #3D2710;
+    border: 2px solid #4E3218;
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    max-width: 860px;
+}
+
+/* ===== FILAS DE DOS COLUMNAS ===== */
+.fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+/* ===== FILA ANCHO COMPLETO ===== */
+.filaCompleta {
+    margin-bottom: 24px;
+}
+
+/* ===== CAMPO INDIVIDUAL ===== */
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo label {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #D4B896;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.campo input,
+.campo select {
+    padding: 14px 16px;
+    border: 2px solid #4E3218;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #FFF7EC;
+    background: #2B1B0E;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.campo input::placeholder {
+    color: #6B5040;
+}
+
+.campo select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23E8A33D' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-color: #2B1B0E;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.campo select option {
+    background: #2B1B0E;
+    color: #FFF7EC;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #E8A33D;
+    box-shadow: 0 0 0 3px rgba(232, 163, 61, 0.15);
+}
+
+.campo input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.6);
+}
+
+/* ===== ESTADO DE ERROR ===== */
+.inputError {
+    border-color: #C1502E !important;
+}
+
+.error {
+    font-size: 0.82rem;
+    color: #C1502E;
+    margin-top: 2px;
+}
+
+/* ===== BOTÓN ENVIAR ===== */
+.accion {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnEnviar {
+    padding: 16px 48px;
+    background: #C1502E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btnEnviar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(193, 80, 46, 0.35);
+}
+
+.btnEnviar:active {
+    transform: translateY(0);
+}
+
+/* ===== PANTALLA DE ÉXITO ===== */
+.exito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px;
+    gap: 16px;
+}
+
+.exitoIcono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #C1502E;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.exito h3 {
+    font-size: 2rem;
+    color: #FFF7EC;
+    margin: 0;
+}
+
+.exito p {
+    font-size: 1.05rem;
+    color: #C4A882;
+    margin: 0;
+}
+
+.exitoServicio {
+    font-size: 1.1rem;
+    color: #2B1B0E !important;
+    font-weight: 600;
+    background: #E8A33D;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.exitoDetalle {
+    font-size: 1rem;
+    color: #E8A33D !important;
+    font-weight: 600;
+    background: #4E3218;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.btnReset {
+    margin-top: 12px;
+    padding: 14px 36px;
+    background: #E8A33D;
+    color: #2B1B0E;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btnReset:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(232, 163, 61, 0.3);
+}

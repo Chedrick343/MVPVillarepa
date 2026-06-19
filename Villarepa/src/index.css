@@ -1,4 +1,44 @@
-#root{
-  width: 95%;
-  height: 90%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Georgia&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #1A0F06;
+    color: #FFF7EC;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2B1B0E;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C1502E;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #E8A33D;
+}
+
+/* Selección de texto */
+::selection {
+    background: #E8A33D;
+    color: #2B1B0E;
 }

@@ -1,15 +1,16 @@
-@media(max-width: 768px){
-    .headBar{
-        background-color: yellow;
-        height: 100%;
-        width: 50%;
-        display: inline-block;
-    }
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F8F2EA;
 }
-@media(min-width: 769px){
-    .headBar{
-        background-color: yellow;
-        height: 100%;
-        width: 100%;
-    }
+.app > header{
+    flex-shrink: 0;
+}
+
+.main{
+    flex: 1;
+    overflow-y: auto;
+    background-color: #74542a;
+    padding: 2rem;
 }

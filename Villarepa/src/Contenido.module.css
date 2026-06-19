@@ -1,0 +1,6 @@
+.contenido {
+    height: 100%;
+    background: #2d1a0c;
+    color: #1d1508;
+    overflow-y: auto;
+}

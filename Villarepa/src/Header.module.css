@@ -1,76 +1,56 @@
-/* Mobile-first: estilos base */
 .header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-    width: 100%;
-    padding: 1rem 1.25rem;
-    background-color: #E8A33D;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    padding: 0 40px;
+
+    background: #2B1B0E;
+    border-bottom: 3px solid #C1502E;
+
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .title {
-    font-family: 'Fraunces', Georgia, serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #2B1B0E;
-    letter-spacing: -0.02em;
     margin: 0;
+    color: #E8A33D;
+    font-size: 1.9rem;
+    font-family: Georgia, serif;
+    letter-spacing: 0.02em;
 }
 
 .navOptions {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1.25rem;
+    gap: 8px;
 }
 
 .navOption {
-    font-family: 'Work Sans', 'Helvetica Neue', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: #2B1B0E;
     text-decoration: none;
-    position: relative;
-    padding: 0.25rem 0;
-    transition: color 0.2s ease;
+    color: #B89A7A;
+    font-weight: 600;
+    font-size: 0.92rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
-.navOption::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: #C1502E;
-    transition: width 0.25s ease;
+.navOption:hover {
+    background: #3D2710;
+    color: #FFF7EC;
 }
 
-.navOption:hover,
-.navOption:focus-visible {
-    color: #C1502E;
+.activo {
+    background: #C1502E;
+    color: #FFF7EC !important;
 }
 
-.navOption:hover::after,
-.navOption:focus-visible::after {
-    width: 100%;
-}
-
-/* Escritorio: header en fila */
-@media (min-width: 769px) {
-    .header {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.25rem 2.5rem;
-    }
-
-    .title {
-        font-size: 1.75rem;
-    }
-
-    .navOptions {
-        gap: 2rem;
-    }
+.activo:hover {
+    background: #A8402A;
 }
