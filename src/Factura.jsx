@@ -37,7 +37,7 @@ function Factura({ onNavegar }) {
         if (errores[name]) setErrores((p) => ({ ...p, [name]: "" }));
     };
 
-    const tarifas = { Vagoneta: 45000, Excavadora: 85000, Montacargas: 55000, Aplanadora: 70000, Grúa: 150000 };
+    const tarifas = { Vagoneta: 45000, Excavadora: 85000, Montacargas: 55000, Aplanadora: 70000, Grúa: 150000, Camion: 100000 };
 
     const calcularMonto = () => {
         if (!form.servicio || !form.horas) return 0;
