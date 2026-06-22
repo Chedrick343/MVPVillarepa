@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    padding: 0 40px;
+
+    background: #3a2c20;
+    border-bottom: 3px solid #C1502E;
+
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.title {
+    margin: 0;
+    color: #E8A33D;
+    font-size: 1.9rem;
+    font-family: Georgia, serif;
+    letter-spacing: 0.02em;
+}
+
+.navOptions {
+    display: flex;
+    gap: 8px;
+}
+
+.navOption {
+    text-decoration: none;
+    color: #B89A7A;
+    font-weight: 600;
+    font-size: 0.92rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.navOption:hover {
+    background: #3D2710;
+    color: #FFF7EC;
+}
+
+.activo {
+    background: #C1502E;
+    color: #FFF7EC !important;
+}
+
+.activo:hover {
+    background: #A8402A;
+}
