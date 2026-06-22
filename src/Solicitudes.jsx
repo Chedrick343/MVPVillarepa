@@ -74,11 +74,11 @@ function Solicitudes({ onNavegar }) {
                             </div>
 
                             <div className={styles.info}>
-                                <p>📧 {solicitud.correo}</p>
-                                <p>📞 {solicitud.celular}</p>
-                                <p>🚜 {solicitud.servicio}</p>
-                                <p>📅 {solicitud.fecha}</p>
-                                <p>🕘 {solicitud.horario}</p>
+                                <p> {solicitud.correo}</p>
+                                <p> {solicitud.celular}</p>
+                                <p> {solicitud.servicio}</p>
+                                <p> {solicitud.fecha}</p>
+                                <p> {solicitud.horario}</p>
                             </div>
 
                             {solicitud.estado === "Pendiente" && (

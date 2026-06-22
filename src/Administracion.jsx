@@ -50,7 +50,7 @@ function Administracion() {
                 <p>Por ahora puedes poner cualquier valor, esto es solo una demostración.</p>
             </div>
             <form className={styles.formulario} onSubmit={handleSubmit} noValidate>
-                <div className={styles.iconoLock}>🔒</div>
+
 
                 <div className={styles.campo}>
                     <label htmlFor="usuario">Usuario</label>
@@ -72,7 +72,7 @@ function Administracion() {
                             className={errores.contrasena ? styles.inputError : ""} />
                         <button type="button" className={styles.togglePass}
                             onClick={() => setMostrarPass((v) => !v)} tabIndex={-1}>
-                            {mostrarPass ? "🙈" : "👁️"}
+                            {mostrarPass ? "🛡️" : "👁️"}
                         </button>
                     </div>
                     {errores.contrasena && <span className={styles.error}>{errores.contrasena}</span>}
