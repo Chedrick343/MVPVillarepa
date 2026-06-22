@@ -1,7 +1,7 @@
 /* ===== SECCIÓN PRINCIPAL ===== */
 .servicios {
     padding: 80px 80px;
-    background: #2B1B0E;
+    background: #1c1005;
     min-height: 80vh;
 }
 
@@ -199,7 +199,7 @@
 }
 
 .placeholderTitulo {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: #D4B896;
     margin: 0;
@@ -207,7 +207,7 @@
 
 .placeholderTexto {
     font-size: 0.97rem;
-    color: #6B5040;
+    color: #68554a;
     line-height: 1.7;
     max-width: 360px;
     margin: 0;

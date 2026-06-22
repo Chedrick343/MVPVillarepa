@@ -5,7 +5,7 @@ const servicios = [
     {
         id: 1,
         nombre: "Vagoneta",
-        icono: "🚛",
+        icono: "",
         descripcion:
             "Transporte de material a granel para proyectos de construcción y movimiento de tierras. Contamos con unidades de alta capacidad para agilizar cualquier obra.",
         detalles: [
@@ -18,7 +18,7 @@ const servicios = [
     {
         id: 2,
         nombre: "Excavadora",
-        icono: "🏗️",
+        icono: "",
         descripcion:
             "Excavación de zanjas, movimiento de tierra y demolición ligera. Equipo moderno con operadores experimentados para garantizar precisión y seguridad.",
         detalles: [
@@ -31,7 +31,7 @@ const servicios = [
     {
         id: 3,
         nombre: "Montacargas",
-        icono: "🔧",
+        icono: "",
         descripcion:
             "Levantamiento y traslado de cargas pesadas en bodegas, obras y espacios industriales. Ideal para proyectos que requieren movilidad vertical de materiales.",
         detalles: [
@@ -44,7 +44,7 @@ const servicios = [
     {
         id: 4,
         nombre: "Aplanadora",
-        icono: "🛣️",
+        icono: "",
         descripcion:
             "Compactación de suelos, asfalto y bases para carreteras y plataformas. Garantizamos superficies niveladas y firmes para cualquier tipo de proyecto vial.",
         detalles: [
@@ -57,7 +57,7 @@ const servicios = [
     {
         id: 5,
         nombre: "Grúa",
-        icono: "🏛️",
+        icono: "",
         descripcion:
             "Izaje y traslado de estructuras, vigas y equipos de gran peso. Solución segura para proyectos de construcción vertical y montaje industrial.",
         detalles: [
@@ -139,7 +139,7 @@ function Servicios() {
                         </>
                     ) : (
                         <div className={styles.cardPlaceholder}>
-                            <div className={styles.placeholderIcono}>🏗️</div>
+                            <div className={styles.placeholderIcono}></div>
                             <p className={styles.placeholderTitulo}>
                                 Consulte nuestros servicios
                             </p>

@@ -3,28 +3,28 @@ import styles from "./Contacto.module.css";
 const contactos = [
     {
         id: "facebook",
-        icono: "📘",
+        icono: "",
         red: "Facebook",
         valor: "/VillarepaCR",
         href: "https://facebook.com/VillarepaCR",
     },
     {
         id: "whatsapp",
-        icono: "💬",
+        icono: "",
         red: "WhatsApp",
         valor: "+506 8888-8888",
         href: "https://wa.me/50688888888",
     },
     {
         id: "instagram",
-        icono: "📸",
+        icono: "",
         red: "Instagram",
         valor: "@villarepa_cr",
         href: "https://instagram.com/villarepa_cr",
     },
     {
         id: "telefono",
-        icono: "📞",
+        icono: "",
         red: "Teléfono",
         valor: "+506 2222-2222",
         href: "tel:+50622222222",

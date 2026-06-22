@@ -11,6 +11,6 @@
 .main{
     flex: 1;
     overflow-y: auto;
-    background-color: #74542a;
+    background-color: #000000;
     padding: 2rem;
 }

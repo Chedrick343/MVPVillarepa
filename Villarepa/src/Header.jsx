@@ -5,6 +5,7 @@ const links = [
     { id: "servicios", label: "Servicios" },
     { id: "contacto",  label: "Contacto" },
     { id: "formulario", label: "Formulario" },
+    { id: "admin", label: "Administración" }
 ];
 
 function Header({ seccionActiva, onNavegar }) {
