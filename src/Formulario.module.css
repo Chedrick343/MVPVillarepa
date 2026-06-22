@@ -217,3 +217,30 @@
     transform: translateY(-2px);
     box-shadow: 0 8px 18px rgba(232, 163, 61, 0.3);
 }
+
+@media (max-width: 768px) {
+  .seccion {
+    padding: 40px 20px;
+  }
+
+  .encabezado h2 {
+    font-size: 2rem;
+  }
+
+  .formulario {
+    padding: 24px;
+  }
+
+  .fila {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .accion {
+    justify-content: stretch;
+  }
+
+  .btnEnviar {
+    width: 100%;
+  }
+}

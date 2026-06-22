@@ -237,3 +237,33 @@
     border-color: #C1502E;
     color: #FFF7EC;
 }
+
+@media (max-width: 768px) {
+  .servicios {
+    padding: 40px 20px;
+  }
+
+  .contenido {
+    flex-direction: column;
+  }
+
+  .lista {
+    width: 100%;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .encabezado h2 {
+    font-size: 2rem;
+  }
+
+  .cardEncabezado h3 {
+    font-size: 1.4rem;
+  }
+
+  .cardPrecio {
+    align-items: flex-start;
+  }
+}

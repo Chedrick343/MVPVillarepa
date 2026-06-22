@@ -54,3 +54,26 @@
 .activo:hover {
     background: #A8402A;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .navOptions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navOption {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+}

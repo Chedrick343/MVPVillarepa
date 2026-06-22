@@ -131,3 +131,25 @@
     color: #B89A7A;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+  .seccion {
+    padding: 40px 20px;
+  }
+
+  .encabezado h2 {
+    font-size: 2rem;
+  }
+
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  .tarjeta {
+    padding: 18px;
+  }
+
+  .nota {
+    padding: 16px;
+  }
+}

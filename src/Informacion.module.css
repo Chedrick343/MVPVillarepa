@@ -136,3 +136,39 @@
     border-radius: 16px;
     filter: drop-shadow(0 20px 35px rgba(0, 0, 0, .3));
 }
+
+@media (max-width: 768px) {
+  .hero,
+  .heroInvertido {
+    flex-direction: column;
+    padding: 40px 20px;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .info,
+  .imagen {
+    width: 100%;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+  }
+
+  .infoDerecha h2 {
+    font-size: 1.8rem;
+  }
+
+  .botones {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .botones button {
+    width: 100%;
+  }
+
+  .imagen img {
+    max-width: 100%;
+  }
+}
