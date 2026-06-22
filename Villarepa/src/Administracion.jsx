@@ -49,7 +49,6 @@ function Administracion() {
                 <h2>Panel de <span>Administración</span></h2>
                 <p>Por ahora puedes poner cualquier valor, esto es solo una demostración.</p>
             </div>
-
             <form className={styles.formulario} onSubmit={handleSubmit} noValidate>
                 <div className={styles.iconoLock}>🔒</div>
 
