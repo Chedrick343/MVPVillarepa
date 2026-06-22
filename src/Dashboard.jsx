@@ -1,19 +1,16 @@
 import styles from "./Dashboard.module.css";
 
 const servicios = [
-    { id: 1, nombre: "Vagoneta", horas: 120, dinero: 5400000, disponibles: 2 },
     { id: 2, nombre: "Excavadora", horas: 95, dinero: 8075000, disponibles: 1 },
-    { id: 3, nombre: "Montacargas", horas: 65, dinero: 3575000, disponibles: 3 },
-    { id: 4, nombre: "Aplanadora", horas: 80, dinero: 5600000, disponibles: 2 },
-    { id: 5, nombre: "Grúa", horas: 50, dinero: 7500000, disponibles: 1 },
+    { id: 5, nombre: "Camion", horas: 50, dinero: 7500000, disponibles: 1 },
 ];
 
 const solicitudes = [
     { empresa: "Constructora MECO", servicio: "Excavadora" },
-    { empresa: "El Colono", servicio: "Grúa" },
-    { empresa: "Grupo H Solís", servicio: "Vagoneta" },
-    { empresa: "Constructora Herrera", servicio: "Montacargas" },
-    { empresa: "Conansa", servicio: "Aplanadora" },
+    { empresa: "El Colono", servicio: "Camion" },
+    { empresa: "Grupo H Solís", servicio: "Camion" },
+    { empresa: "Constructora Herrera", servicio: "Camion" },
+    { empresa: "Conansa", servicio: "Camion" },
 ];
 
 const horasTotales = servicios.reduce((a, b) => a + b.horas, 0);

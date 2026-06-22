@@ -3,19 +3,6 @@ import styles from "./Servicios.module.css";
 
 const servicios = [
     {
-        id: 1,
-        nombre: "Vagoneta",
-        icono: "",
-        descripcion:
-            "Transporte de material a granel para proyectos de construcción y movimiento de tierras. Contamos con unidades de alta capacidad para agilizar cualquier obra.",
-        detalles: [
-            "Capacidad de hasta 12 m³",
-            "Disponible por hora o por viaje",
-            "Operador incluido",
-        ],
-        precio: "₡45,000 / hora",
-    },
-    {
         id: 2,
         nombre: "Excavadora",
         icono: "",
@@ -29,43 +16,17 @@ const servicios = [
         precio: "₡85,000 / hora",
     },
     {
-        id: 3,
-        nombre: "Montacargas",
+        id: 6,
+        nombre: "Camión",
         icono: "",
         descripcion:
-            "Levantamiento y traslado de cargas pesadas en bodegas, obras y espacios industriales. Ideal para proyectos que requieren movilidad vertical de materiales.",
+            "Movilización de materiales y equipos para proyectos de construcción, minería y obra civil.",
         detalles: [
-            "Capacidad de hasta 3 toneladas",
-            "Apto para interiores y exteriores",
-            "Operador incluido",
+            "Diferentes capacidades disponibles",
+            "Disponibilidad de cureña y carreta según necesidad",
+            "Chofer profesional incluido",
         ],
-        precio: "₡55,000 / hora",
-    },
-    {
-        id: 4,
-        nombre: "Aplanadora",
-        icono: "",
-        descripcion:
-            "Compactación de suelos, asfalto y bases para carreteras y plataformas. Garantizamos superficies niveladas y firmes para cualquier tipo de proyecto vial.",
-        detalles: [
-            "Rodillo vibratorio doble",
-            "Ideal para asfalto y lastre",
-            "Operador incluido",
-        ],
-        precio: "₡70,000 / hora",
-    },
-    {
-        id: 5,
-        nombre: "Grúa",
-        icono: "",
-        descripcion:
-            "Izaje y traslado de estructuras, vigas y equipos de gran peso. Solución segura para proyectos de construcción vertical y montaje industrial.",
-        detalles: [
-            "Capacidad de hasta 50 toneladas",
-            "Operador y rigger incluidos",
-            "Inspección previa sin costo",
-        ],
-        precio: "₡150,000 / hora",
+        precio: "₡100,000 / hora",
     },
 ];
 

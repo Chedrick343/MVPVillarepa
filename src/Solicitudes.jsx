@@ -3,10 +3,10 @@ import styles from "./Solicitudes.module.css";
 
 const solicitudesIniciales = [
     { id: 1, nombre: "Juan", apellidos: "Pérez Mora", correo: "juan@gmail.com", celular: "8888-1111", servicio: "Excavadora", fecha: "2026-07-15", horario: "08:00 AM", estado: "Pendiente" },
-    { id: 2, nombre: "María", apellidos: "Rodríguez Solís", correo: "maria@gmail.com", celular: "8888-2222", servicio: "Vagoneta", fecha: "2026-07-16", horario: "10:00 AM", estado: "Pendiente" },
-    { id: 3, nombre: "Carlos", apellidos: "Jiménez Vargas", correo: "carlos@gmail.com", celular: "8888-3333", servicio: "Grúa", fecha: "2026-07-17", horario: "01:00 PM", estado: "Pendiente" },
-    { id: 4, nombre: "Laura", apellidos: "Mora Castro", correo: "laura@gmail.com", celular: "8888-4444", servicio: "Montacargas", fecha: "2026-07-18", horario: "09:00 AM", estado: "Pendiente" },
-    { id: 5, nombre: "Fernando", apellidos: "Alvarado Ruiz", correo: "fernando@gmail.com", celular: "8888-5555", servicio: "Aplanadora", fecha: "2026-07-20", horario: "02:00 PM", estado: "Pendiente" },
+    { id: 2, nombre: "María", apellidos: "Rodríguez Solís", correo: "maria@gmail.com", celular: "8888-2222", servicio: "Camion", fecha: "2026-07-16", horario: "10:00 AM", estado: "Pendiente" },
+    { id: 3, nombre: "Carlos", apellidos: "Jiménez Vargas", correo: "carlos@gmail.com", celular: "8888-3333", servicio: "Camion", fecha: "2026-07-17", horario: "01:00 PM", estado: "Pendiente" },
+    { id: 4, nombre: "Laura", apellidos: "Mora Castro", correo: "laura@gmail.com", celular: "8888-4444", servicio: "Camion", fecha: "2026-07-18", horario: "09:00 AM", estado: "Pendiente" },
+    { id: 5, nombre: "Fernando", apellidos: "Alvarado Ruiz", correo: "fernando@gmail.com", celular: "8888-5555", servicio: "Camion", fecha: "2026-07-20", horario: "02:00 PM", estado: "Pendiente" },
 ];
 
 function Solicitudes({ onNavegar }) {

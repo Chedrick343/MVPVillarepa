@@ -8,11 +8,8 @@ const horarios = [
 ];
 
 const servicios = [
-    { value: "vagoneta",    label: "🚛  Vagoneta" },
-    { value: "excavadora",  label: "🏗️  Excavadora" },
-    { value: "montacargas", label: "🔧  Montacargas" },
-    { value: "aplanadora",  label: "🛣️  Aplanadora" },
-    { value: "grua",        label: "🏛️  Grúa" },
+    { value: "excavadora",  label: "Excavadora" },
+    { value: "Camion",  label: "Camión" },
 ];
 
 function Formulario() {

@@ -3,10 +3,10 @@ import styles from "./Factura.module.css";
 
 const historialInicial = [
     { id: "FE-001", cliente: "Constructora MECO", servicio: "Excavadora", monto: 680000, fecha: "2026-06-01", estado: "Aceptada" },
-    { id: "FE-002", cliente: "El Colono", servicio: "Grúa", monto: 1200000, fecha: "2026-06-05", estado: "Enviada" },
-    { id: "FE-003", cliente: "Grupo H Solís", servicio: "Vagoneta", monto: 360000, fecha: "2026-06-10", estado: "Pendiente" },
-    { id: "FE-004", cliente: "Constructora Herrera", servicio: "Montacargas", monto: 440000, fecha: "2026-06-12", estado: "Rechazada" },
-    { id: "FE-005", cliente: "Conansa", servicio: "Aplanadora", monto: 560000, fecha: "2026-06-18", estado: "Aceptada" },
+    { id: "FE-002", cliente: "El Colono", servicio: "Camion", monto: 1200000, fecha: "2026-06-05", estado: "Enviada" },
+    { id: "FE-003", cliente: "Grupo H Solís", servicio: "Camion", monto: 360000, fecha: "2026-06-10", estado: "Pendiente" },
+    { id: "FE-004", cliente: "Constructora Herrera", servicio: "Camion", monto: 440000, fecha: "2026-06-12", estado: "Rechazada" },
+    { id: "FE-005", cliente: "Conansa", servicio: "Camion", monto: 560000, fecha: "2026-06-18", estado: "Aceptada" },
 ];
 
 const estadoConfig = {
@@ -16,7 +16,7 @@ const estadoConfig = {
     Rechazada:  { color: styles.estadoRechazada,  icono: "❌" },
 };
 
-const servicios = ["Vagoneta", "Excavadora", "Montacargas", "Aplanadora", "Grúa"];
+const servicios = ["Excavadora", "Camion"];
 
 function Factura({ onNavegar }) {
     const [vista, setVista] = useState("historial"); // historial | crear | detalle
