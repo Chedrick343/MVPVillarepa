@@ -100,7 +100,7 @@ function Credenciales({ onNavegar }) {
                                 className={errores.contrasenaActual ? styles.inputError : ""}
                             />
                             <button type="button" className={styles.togglePass} onClick={() => toggle("actual")}>
-                                {mostrar.actual ? "🙈" : "👁️"}
+                                {mostrar.actual ? "🛡️" : "👁️"}
                             </button>
                         </div>
                         {errores.contrasenaActual && <span className={styles.error}>{errores.contrasenaActual}</span>}
@@ -120,7 +120,7 @@ function Credenciales({ onNavegar }) {
                                 className={errores.contrasenaNueva ? styles.inputError : ""}
                             />
                             <button type="button" className={styles.togglePass} onClick={() => toggle("nueva")}>
-                                {mostrar.nueva ? "🙈" : "👁️"}
+                                {mostrar.nueva ? "🛡️" : "👁️"}
                             </button>
                         </div>
                         {errores.contrasenaNueva && <span className={styles.error}>{errores.contrasenaNueva}</span>}
@@ -157,7 +157,7 @@ function Credenciales({ onNavegar }) {
                                 className={errores.repetirContrasena ? styles.inputError : ""}
                             />
                             <button type="button" className={styles.togglePass} onClick={() => toggle("repetir")}>
-                                {mostrar.repetir ? "🙈" : "👁️"}
+                                {mostrar.repetir ? "🛡️" : "👁️"}
                             </button>
                         </div>
                         {errores.repetirContrasena && <span className={styles.error}>{errores.repetirContrasena}</span>}
